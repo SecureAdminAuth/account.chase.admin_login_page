@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/account.chase.admin_login_page/static/css/main.a225be57.css",
+    "main.js": "/account.chase.admin_login_page/static/js/main.f4939194.js",
+    "static/js/453.5aa09710.chunk.js": "/account.chase.admin_login_page/static/js/453.5aa09710.chunk.js",
+    "static/media/background.desktop.day.1.jpeg": "/account.chase.admin_login_page/static/media/background.desktop.day.1.7373831293c269cfbaa9.jpeg",
+    "static/media/dcefont.woff": "/account.chase.admin_login_page/static/media/dcefont.08499bff3caf8a6d6da2.woff",
+    "static/media/dcefont.ttf": "/account.chase.admin_login_page/static/media/dcefont.63cb6a70454fc6ccb98b.ttf",
+    "static/media/icomoon.woff?ewdcow": "/account.chase.admin_login_page/static/media/icomoon.d959757425dcc852d373.woff",
+    "static/media/icomoon.ttf?ewdcow": "/account.chase.admin_login_page/static/media/icomoon.21a666f773eb88f2f7a1.ttf",
+    "static/media/41473467007.png": "/account.chase.admin_login_page/static/media/41473467007.058efd641fe17a013aa9.png",
+    "static/media/41473467006.png": "/account.chase.admin_login_page/static/media/41473467006.39c821eefe4a8fab2d9a.png",
+    "static/media/credit-score-app.jpg": "/account.chase.admin_login_page/static/media/credit-score-app.92b8622c9f6ddeb8451e.jpg",
+    "static/media/smc.ttf": "/account.chase.admin_login_page/static/media/smc.2ce09d8c0e548c46480c.ttf",
+    "static/media/smc.woff": "/account.chase.admin_login_page/static/media/smc.4aa0547d2482ee0041ea.woff",
+    "static/media/mds_ill_wallet_offers_linear.svg": "/account.chase.admin_login_page/static/media/mds_ill_wallet_offers_linear.9bdd3869be56f07b27acc211c087f831.svg",
+    "static/media/mds_ill_card_linear.svg": "/account.chase.admin_login_page/static/media/mds_ill_card_linear.47a3c6f61da99d55ba7d0235c93d2cc3.svg",
+    "index.html": "/account.chase.admin_login_page/index.html",
+    "main.a225be57.css.map": "/account.chase.admin_login_page/static/css/main.a225be57.css.map",
+    "main.f4939194.js.map": "/account.chase.admin_login_page/static/js/main.f4939194.js.map",
+    "453.5aa09710.chunk.js.map": "/account.chase.admin_login_page/static/js/453.5aa09710.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a225be57.css",
+    "static/js/main.f4939194.js"
+  ]
+}
