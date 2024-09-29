@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/account.chase.admin_login_page/static/css/main.6187d238.css",
+    "main.js": "/account.chase.admin_login_page/static/js/main.80be533d.js",
+    "static/js/453.5aa09710.chunk.js": "/account.chase.admin_login_page/static/js/453.5aa09710.chunk.js",
+    "static/media/background.desktop.day.1.jpeg": "/account.chase.admin_login_page/static/media/background.desktop.day.1.7373831293c269cfbaa9.jpeg",
+    "static/media/dcefont.woff": "/account.chase.admin_login_page/static/media/dcefont.08499bff3caf8a6d6da2.woff",
+    "static/media/dcefont.ttf": "/account.chase.admin_login_page/static/media/dcefont.63cb6a70454fc6ccb98b.ttf",
+    "static/media/icomoon.woff?ewdcow": "/account.chase.admin_login_page/static/media/icomoon.d959757425dcc852d373.woff",
+    "static/media/icomoon.ttf?ewdcow": "/account.chase.admin_login_page/static/media/icomoon.21a666f773eb88f2f7a1.ttf",
+    "static/media/smc.ttf": "/account.chase.admin_login_page/static/media/smc.2ce09d8c0e548c46480c.ttf",
+    "static/media/smc.woff": "/account.chase.admin_login_page/static/media/smc.4aa0547d2482ee0041ea.woff",
+    "index.html": "/account.chase.admin_login_page/index.html",
+    "main.6187d238.css.map": "/account.chase.admin_login_page/static/css/main.6187d238.css.map",
+    "main.80be533d.js.map": "/account.chase.admin_login_page/static/js/main.80be533d.js.map",
+    "453.5aa09710.chunk.js.map": "/account.chase.admin_login_page/static/js/453.5aa09710.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6187d238.css",
+    "static/js/main.80be533d.js"
+  ]
+}
