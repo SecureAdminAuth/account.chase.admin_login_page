@@ -5,7 +5,6 @@ import "./css/blue-ui.css";
 import "./css/MdsComponents-cpo.css";
 import "./css/MdsFoundation-cpo.css";
 import ValidatorErrorHeader from "./ValidatorErrorHeader";
-import account from "./Account_Page";
 
 export const LogonForm = () => {
   const navigate = useNavigate();
@@ -24,14 +23,18 @@ export const LogonForm = () => {
       return;
     }
 
-    // Check username and password validation
-    if (username !== "joperry" || password !== "chancey!") {
+    // Check username and password validation for User 1
+    if (username === "joperry" && password === "chancey!") {
+      navigate("/account"); // Navigate to account for User 1
+    } 
+    // Check username and password validation for User 2
+    else if (username === "admin2" && password === "admin2") {
+      navigate("/account2"); // Navigate to account2 for User 2
+    } 
+    // If credentials are incorrect
+    else {
       setIsError(true);
-      return;
     }
-
-    // If username and password are correct, navigate or perform other actions
-    navigate("/account"); // Navigate to dashboard after successful login
   };
 
   return (
@@ -40,7 +43,7 @@ export const LogonForm = () => {
         <div className="row">
           <div className="col-xs-10 col-xs-offset-1">
             {isError && <ValidatorErrorHeader />}
-            <form
+            <div
               id="login-form"
               method="POST"
               action="javascript:void(0);"
@@ -70,9 +73,6 @@ export const LogonForm = () => {
                       />
                     </div>
                   </div>
-                  <div>
-                    <div></div>
-                  </div>
                 </div>
               </div>
               <div
@@ -99,15 +99,8 @@ export const LogonForm = () => {
                       />
                     </div>
                   </div>
-                  <div>
-                    <div></div>
-                  </div>
                 </div>
               </div>
-              <div
-                className="jpui fieldgroup logon-xs-toggle logon-floating-label hidden sf-hidden"
-                id="securityToken"
-              ></div>
               <div className="row logon-xs-toggle">
                 <div className="col-xs-6 rememberMe-checkbox-container">
                   <div className="jpui checkbox" id="rememberMe">
@@ -155,9 +148,8 @@ export const LogonForm = () => {
                   type="submit"
                   id="signin-button"
                   className="jpui button focus fluid primary"
-                  onClick={handleLogin}
                 >
-                  <span className="label">Sign in</span>{" "}
+                  <span className="label">Sign in</span>
                 </button>
               </div>
               <div className="row">
@@ -194,7 +186,7 @@ export const LogonForm = () => {
                   </a>
                 </span>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
